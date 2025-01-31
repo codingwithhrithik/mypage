@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="stylee.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/TextPlugin.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!--homepage-->
+    <nav>
+        <div class="logo">
+            <h2>STUDIO<br>CODEFORGE</h2>
+        </div>
+        <div class="menu-toggle">
+            <div class="hamburger"></div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">HOME <span class="arrow">→</span></a></li>
+            <li><a href="#about">ABOUT US <span class="arrow">→</span></a></li>
+            <li><a href="#project">PROJECT <span class="arrow">→</span></a></li>
+            <li><a href="#service">OUR SERVICE <span class="arrow">→</span></a></li>
+            <li><a href="#contact">CONTACT <span class="arrow">→</span></a></li>
+        </ul>
+    </nav>
+
+    <main class="hero">
+        <div class="image-space left"></div>
+        <div class="image-space right"></div>
+        <div class="content-wrapper">
+            <div class="hero-content">
+                <!-- Desktop Content -->
+                <div class="desktop-content">
+                    <h1>
+                        <div class="we-are">WE ARE</div>
+                        <div class="agency-text">
+                            <span class="outline">AG</span>
+                            <span class="filled">ENCY STU</span>
+                            <span class="outline">DIO</span>
+                        </div>
+                    </h1>
+                </div>
+                <!-- Mobile Content -->
+                <div class="mobile-content">
+                    <h1 class="who-am-i">Who I Am?</h1>
+                    <div class="code-box">
+                        <div class="code-header">
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                        </div>
+                        <div class="code-content">
+                            <span class="line-number">1</span>
+                            <span class="keyword">const</span>
+                            <span class="variable">developer</span> = {<br>
+                            <span class="line-number">2</span>&nbsp;&nbsp;
+                            <span class="property">role:</span>
+                            <span class="string">"Full Stack Developer"</span>,<br>
+                            <span class="line-number">3</span>&nbsp;&nbsp;
+                            <span class="property">status:</span>
+                            <span class="string">"Ready to collaborate"</span><br>
+                            <span class="line-number">4</span>
+                            };<br>
+                            <span class="line-number">5</span>
+                            <span class="comment">// Let's create something amazing!</span><br>
+                            <span class="line-number">6</span>
+                            <span id="typed-text"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="red-box">
+        <p>WE CRAFT STRATEGIES AND DESIGNS THAT<br>MAKE BUSINESS STAND OUT.</p>
+        <button class="cta-button">
+            <span class="arrow-circle">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M12 4L10.59 5.41L16.17 11H4V13H16.17L10.59 18.59L12 20L20 12L12 4Z" fill="currentColor" />
+                </svg>
+            </span>
+            SEE OUR WORK
+        </button>
+    </div>
+
+
+
+
+
+
+
+<!--content-->
+    <div class="full_about_me">
+        <div class="about_me_container">
+            <h1 class="about_me_content_title">CONTENT</h1>
+
+            <div class="about_me_menu_container">
+                <div class="about_me_left_menu">
+                    <div class="about_me_menu_item">
+                        <span class="about_me_number">01</span>
+                        <span class="about_me_text">ABOUT ME</span>
+                        <svg class="about_me_arrow" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M5 12h14M12 5l7 7-7 7" />
+                        </svg>
+                    </div>
+                    <div class="about_me_menu_item">
+                        <span class="about_me_number">02</span>
+                        <span class="about_me_text">VISION/MISSION</span>
+                        <svg class="about_me_arrow" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M5 12h14M12 5l7 7-7 7" />
+                        </svg>
+                    </div>
+                    <div class="about_me_menu_item">
+                        <span class="about_me_number">03</span>
+                        <span class="about_me_text">PERSONAL SKILLS</span>
+                        <svg class="about_me_arrow" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M5 12h14M12 5l7 7-7 7" />
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="about_me_right_menu">
+                    <div class="about_me_menu_item">
+                        <span class="about_me_number">04</span>
+                        <span class="about_me_text">WORK EXPERIENCE</span>
+                        <svg class="about_me_arrow" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M5 12h14M12 5l7 7-7 7" />
+                        </svg>
+                    </div>
+                    <div class="about_me_menu_item">
+                        <span class="about_me_number">05</span>
+                        <span class="about_me_text">PORTFOLIO</span>
+                        <svg class="about_me_arrow" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M5 12h14M12 5l7 7-7 7" />
+                        </svg>
+                    </div>
+                    <div class="about_me_menu_item">
+                        <span class="about_me_number">06</span>
+                        <span class="about_me_text">CONTACT</span>
+                        <svg class="about_me_arrow" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M5 12h14M12 5l7 7-7 7" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about_me_page_number">01</div>
+        </div>
+    </div>
+
+
+
+    <!--short intro-->
+    <div class="complete_who_im">
+        <div class="who_im_container">
+            <div class="who_im_left_section">
+                <h1 class="who_im_main_title">WHO I<br>AM?</h1>
+                <p class="who_im_description">
+                    <b>READY</b> TO BRING YOUR BUSINESS <b>TO</b> LIFE? WHETHER YOU'RE JUST
+                    <b>START</b>ING OUT OR LOOKING TO REVAMP <b>YOUR</b> EXISTING <b>BUSINESS</b>, I'M
+                    HERE TO HELP!
+                </p>
+                <div class="who_im_buttons">
+                    <a href="#vision" class="who_im_btn" id="visionBtn">
+                        <span class="who_im_circle">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M7 13L12 18L17 13" stroke="white" stroke-width="2" />
+                                <path d="M12 18V6" stroke="white" stroke-width="2" />
+                            </svg>
+                        </span>
+                        SEE MY VISION
+                    </a>
+                    <a href="#approach" class="who_im_btn">
+                        <span class="who_im_circle">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M7 13L12 18L17 13" stroke="white" stroke-width="2" />
+                                <path d="M12 18V6" stroke="white" stroke-width="2" />
+                            </svg>
+                        </span>
+                        SCROLL DOWN
+                    </a>
+                </div>
+            </div>
+            <div class="who_im_right_section">
+                <div class="who_im_animated_text"></div>
+            </div>
+        </div>
+
+        <div class="who_im_modal" id="visionModal">
+            <div class="who_im_modal_content">
+                <span class="who_im_close">&times;</span>
+                <h2>Our Vision</h2>
+                <pre class="who_im_code_text" id="visionText"></pre>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!--complete profile section-->
+    <div class="complete_details_tree">
+        <div class="portfolio-container">
+            <div class="main-content">
+                <aside class="profile-section">
+                    <div class="profile-intro abt">
+                        <h2>Want to know more</h2>
+                        <p>about me?</p>
+                    </div>
+                    <img src="imggg/Untitled_design__22_-removebg-preview.png" alt="Profile" class="profile-image">
+                    <h2>Ritik Pandey</h2>
+                    <div class="social-links">
+                        <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                    </div>
+                    <p>
+                        <b>Ritik Pandey</b> – Full-Stack Developer with 5+ years of experience in web & app
+                        development,
+                        <!-- UI/UX design, SEO, and digital marketing. Passionate about creating innovative and efficient
+                        digital solutions🚀 -->
+                    </p>
+                    <button class="contact-btn">Contact Me</button>
+                </aside>
+                <main class="skills-section">
+                    <div class="skills-title">
+                        <h1>The Skills Lab</h1>
+                        <div class="highlight">Explore My Expertise </div>
+                    </div>
+                    <div class="hexagon-grid">
+                        <!-- Skills will be added here by JavaScript -->
+                    </div>
+                </main>
+            </div>
+            <section class="stats-section">
+                <div class="stat-box">
+                    <div class="number">5+</div>
+                    <div class="label">Years Experiences</div>
+                </div>
+                <div class="stat-box">
+                    <div class="number">315+</div>
+                    <div class="label">Successful Projects</div>
+                </div>
+                <div class="stat-box">
+                    <div class="number">605+</div>
+                    <div class="label">Total Client</div>
+                </div>
+                <div class="stat-box">
+                    <div class="number">+87%</div>
+                    <div class="label">Client Revenue</div>
+                </div>
+            </section>
+        </div>
+
+    </div>
+
+
+<!--process(how i work)-->
+    <div class="complete_develop">
+        <div class="development-container">
+            <h2 class="development-subtitle">How I Work</h2>
+            <h1 class="development-title">A Methodical Process For<br>Maximum Results.</h1>
+
+            <div class="development-process">
+                <div class="development-line"></div>
+
+                <div class="development-step">
+                    <div class="development-dot"></div>
+                    <div class="development-label">DISCOVERY</div>
+                </div>
+
+                <div class="development-step">
+                    <div class="development-dot"></div>
+                    <div class="development-label">RESEARCH</div>
+                </div>
+
+                <div class="development-step">
+                    <div class="development-dot"></div>
+                    <div class="development-label">DESIGN</div>
+                </div>
+
+                <div class="development-step">
+                    <div class="development-dot"></div>
+                    <div class="development-label">ITERATION</div>
+                </div>
+
+                <div class="development-step">
+                    <div class="development-dot"></div>
+                    <div class="development-label">RESULT</div>
+                </div>
+            </div>
+
+            <p class="development-description">
+                A structured method for efficiency, ensuring precise results and consistent success.
+            </p>
+        </div>
+    </div>
+
+
+
+    <!--my project-->
+    <div class="my_project_container">
+        <div class="my_project_header">
+            <h1 class="my_project_title">When moments captured every dreams crafted into beautiful reality</h1>
+            <div class="my_project_categories">
+                <div class="my_project_category active">Landscape</div>
+                <div class="my_project_category">Wildlife</div>
+                <div class="my_project_category">Architectural</div>
+                <div class="my_project_category">Travel</div>
+                <div class="my_project_category">Portrait</div>
+            </div>
+        </div>
+
+        <div class="my_project_slider_container">
+            <div class="my_project_info">
+                <div class="my_project_description">
+                    Experience the breathtaking view of Mont Blanc's majestic peaks as clouds dance around its summit.
+                    This capture showcases the raw beauty of nature and the perfect harmony between mountains and sky.
+                </div>
+                <a href="#" class="my_project_see_all">
+                    See all
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14M12 5l7 7-7 7" />
+                    </svg>
+                </a>
+            </div>
+
+            <div class="my_project_slider">
+                <div class="my_project_slide active">
+                    <div class="my_project_slide_content">
+                        <img src="https://images.pexels.com/photos/1287145/pexels-photo-1287145.jpeg" alt="Landscape"
+                            class="my_project_slide_image">
+                        <div class="my_project_slide_text">
+                            <h3>Chasing Clouds at Mont Blanc's Pinnacle</h3>
+                            <p>Mont Blanc, France</p>
+                        </div>
+                    </div>
+                    <div class="my_project_slide_preview">
+                        <img src="https://images.pexels.com/photos/247431/pexels-photo-247431.jpeg" alt="Next Preview"
+                            class="my_project_slide_image">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="my_project_navigation">
+            <div class="my_project_nav_btn prev">←</div>
+            <div class="my_project_nav_btn next">→</div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- priceplan -->
+    <div class="complete_price_tag_plan">
+        <div class="service_price_planAttachment">
+            <div class="service_price_planAttachment-title">
+                <h1>Service Packages</h1>
+                <p>Choose the perfect plan for your needs</p>
+            </div>
+
+            <div class="service_price_planAttachment-left-section">
+                <table class="service_price_planAttachment-comparison-table">
+                    <tr>
+                        <th>Feature</th>
+                        <th>Kickstarter Package</th>
+                        <th>Standard Package</th>
+                        <th>Premium Package</th>
+                    </tr>
+                    <tr>
+                        <td>Pages</td>
+                        <td>1 Landing Page (5 Sections)</td>
+                        <td>5 Pages</td>
+                        <td>8 Pages</td>
+                    </tr>
+                    <tr>
+                        <td>Custom Design</td>
+                        <td>Simple, Clean Design</td>
+                        <td>Custom Design</td>
+                        <td>Premium Custom Design</td>
+                    </tr>
+                    <tr>
+                        <td>Responsive Design</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>E-commerce</td>
+                        <td>Not Included</td>
+                        <td>Basic</td>
+                        <td>Advanced</td>
+                    </tr>
+                    <tr>
+                        <td>Payment Processing</td>
+                        <td>Not Included</td>
+                        <td>Included</td>
+                        <td>Included</td>
+                    </tr>
+                    <tr>
+                        <td>Hosting Setup</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>Social Media Integration</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>Unlimited Revisions</td>
+                        <td>No</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>SEO Optimization</td>
+                        <td>Basic</td>
+                        <td>Basic</td>
+                        <td>Advanced</td>
+                    </tr>
+                    <tr>
+                        <td>Analytics Integration</td>
+                        <td>No</td>
+                        <td>No</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>Delivery Time</td>
+                        <td>4 days</td>
+                        <td>7 days</td>
+                        <td>10 days</td>
+                    </tr>
+                    <tr>
+                        <td>Price</td>
+                        <td>₹6,666</td>
+                        <td>₹15,555</td>
+                        <td>₹25,555</td>
+                    </tr>
+                    <tr>
+                        <td>Free Add-Ons</td>
+                        <td>Hosting + Email + Logo</td>
+                        <td>Hosting + Email + Logo</td>
+                        <td>Hosting + Email + Logo</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="service_price_planAttachment-right-section">
+                <div class="service_price_planAttachment-other-services">
+                    <h2>Other Services We Offer:</h2>
+                    <div class="service_price_planAttachment-service-item">App Development</div>
+                    <div class="service_price_planAttachment-service-item">SEO</div>
+                    <div class="service_price_planAttachment-service-item">Graphic Design</div>
+                    <div class="service_price_planAttachment-service-item">Social Media Marketing</div>
+                    <div class="service_price_planAttachment-service-item">PPC & Google Ads</div>
+                    <div class="service_price_planAttachment-service-item">Content Marketing</div>
+                    <div class="service_price_planAttachment-service-item">Branding & Logo Design</div>
+                </div>
+                <div class="service_price_planAttachment-buttons-container">
+                    <div class="service_price_planAttachment-discuss-indicator">Let's Discuss Before Order</div>
+                    <button class="service_price_planAttachment-btn service_price_planAttachment-btn-primary">Contact
+                        Me</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- feedback -->
+    <div class="clients_all_feedback">
+        <div class="clients_feedback_container">
+            <div class="clients_feedback_header">
+                <h2>Our trusted <span>Clients</span></h2>
+                <p>Our mission is to drive progress and enhance the lives of our customers by delivering superior
+                    products and services that exceed expectations.</p>
+            </div>
+
+            <div class="clients_feedback_grid" id="testimonialsGrid"></div>
+
+            <div class="clients_feedback_navigation">
+                <button class="nav_button" id="prevBtn" onclick="previousPage()">←</button>
+                <button class="nav_button" id="nextBtn" onclick="nextPage()">→</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!--quuestion answer-->
+    <div class="page-container">
+        <div class="main-content">
+            <div class="faq-container">
+                <div class="faq-header">
+                    <h1>Frequently<br>Asked Question</h1>
+                    <p>Whether you're new to digital marketing or looking to understand more about our services,
+                        these FAQs are designed to provide you with clear and concise information.</p>
+                </div>
+
+                <div class="faq-list">
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>What services do you offer?</h3>
+                            <div class="icon"></div>
+                        </div>
+                        <div class="faq-answer">
+                            <p>I offer full-stack development, app development, UI/UX design, SEO, digital
+                                marketing, and data analysis services to help businesses grow and thrive in the
+                                digital space.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>How much experience do you have?</h3>
+                            <div class="icon"></div>
+                        </div>
+                        <div class="faq-answer">
+                            <p>I have over 5 years of experience working on diverse projects, delivering
+                                high-quality solutions in web development, app development, design, and marketing.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>What technologies do you work with?</h3>
+                            <div class="icon"></div>
+                        </div>
+                        <div class="faq-answer">
+                            <p>I work with technologies like React, Node.js, MongoDB, HTML, CSS, JavaScript,
+                                Flutter, Adobe XD, Figma, and more to build custom solutions tailored to client
+                                needs.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>How do you ensure the success of a project?</h3>
+                            <div class="icon"></div>
+                        </div>
+                        <div class="faq-answer">
+                            <p>I follow a clear process, from understanding client goals to iterative design,
+                                development, and testing. Regular communication and feedback ensure the final
+                                product exceeds expectations.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>How do I get started?</h3>
+                            <div class="icon"></div>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Simply reach out through the contact form or email me, and let's discuss your
+                                project! I'm here to turn your ideas into reality.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="blog-sidebar">
+            <div class="blog-header">
+                <h2>OUR BLOG</h2>
+                <div class="blog-nav">
+                    <div class="nav-button">←</div>
+                    <div class="nav-button">→</div>
+                </div>
+            </div>
+
+            <div class="blog-posts">
+                <div class="blog-post active">
+                    <img src="https://images.pexels.com/photos/1732414/pexels-photo-1732414.jpeg"
+                        alt="Business person working">
+                    <div class="blog-post-content">
+                        <h3 class="blog-post-title">How to build a business faster</h3>
+                        <p class="blog-post-subtitle">5 Ways to Make Your Business Progress and Develop</p>
+                    </div>
+                    <div class="arrow-icon">↗</div>
+                </div>
+
+                <div class="blog-post active">
+                    <img src="https://images.pexels.com/photos/1287145/pexels-photo-1287145.jpeg"
+                        alt="Person typing on keyboard">
+                    <div class="blog-post-content">
+                        <h3 class="blog-post-title">How to create business content</h3>
+                        <p class="blog-post-subtitle">5 Ways to Create Business Content in Simple Steps</p>
+                    </div>
+                    <div class="arrow-icon">↗</div>
+                </div>
+                <div class="blog-post">
+                    <img src="https://images.pexels.com/photos/247431/pexels-photo-247431.jpeg"
+                        alt="Marketing strategy meeting">
+                    <div class="blog-post-content">
+                        <h3 class="blog-post-title">Digital Marketing Essentials</h3>
+                        <p class="blog-post-subtitle">Key Strategies for Online Success in 2024</p>
+                    </div>
+                    <div class="arrow-icon">↗</div>
+                </div>
+
+                <div class="blog-post">
+                    <img src="https://images.pexels.com/photos/2811087/pexels-photo-2811087.jpeg"
+                        alt="Social media dashboard">
+                    <div class="blog-post-content">
+                        <h3 class="blog-post-title">Social Media Growth</h3>
+                        <p class="blog-post-subtitle">Building Your Brand's Online Presence</p>
+                    </div>
+                    <div class="arrow-icon">↗</div>
+                </div>
+
+                <div class="blog-post">
+                    <img src="https://images.pexels.com/photos/247431/pexels-photo-247431.jpeg"
+                        alt="Analytics dashboard">
+                    <div class="blog-post-content">
+                        <h3 class="blog-post-title">Data-Driven Decisions</h3>
+                        <p class="blog-post-subtitle">Using Analytics to Guide Your Business</p>
+                    </div>
+                    <div class="arrow-icon">↗</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- </div>
+    </div> -->
+
+
+
+
+
+
+
+
+    <!--contact info-->
+    <div class="myfooter_contact_me">
+        <div class="my_footer_info_header">
+            PORTFOLIO -/ 2024
+        </div>
+
+        <h1 class="my_footer_info_title">CONTACT</h1>
+
+        <div class="my_footer_info_contact_icon">
+            <svg viewBox="0 0 24 24">
+                <path d="M5 19L19 5M19 5H5M19 5V19" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+        </div>
+
+        <div class="my_footer_info_contact_info">
+            <div class="my_footer_info_row">
+                <span class="my_footer_info_label">PHONE :</span>
+                <span class="my_footer_info_value">+123-456-7890</span>
+            </div>
+
+            <div class="my_footer_info_row">
+                <span class="my_footer_info_label">SOCIAL :</span>
+                <span class="my_footer_info_value my_footer_info_social_icons">
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </span>
+            </div>
+
+            <div class="my_footer_info_row">
+                <span class="my_footer_info_label">EMAIL :</span>
+                <span class="my_footer_info_value">
+                    <a href="mailto:hello@reallygreatsite.com">codeforgestudio@gmail.com</a>
+                </span>
+            </div>
+
+            <div class="my_footer_info_row">
+                <span class="my_footer_info_label">WEBSITE :</span>
+                <span class="my_footer_info_value">
+                    <a href="https://www.reallygreatsite.com" target="_blank">www.codeforgestudio.in</a>
+                </span>
+            </div>
+        </div>
+
+        <div class="my_footer_info_footer">
+            <span>RITIK PANDEY</span>
+            <span>@codeforgestudio.in</span>
+            <span>PORTFOLIO</span>
+
+        </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+
+
+
+
+    <script src="scriptt.js"></script>
+</body>
+
+</html>
